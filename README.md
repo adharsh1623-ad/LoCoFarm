@@ -36,9 +36,12 @@ The code starts by declaring the necessary variables such as the camera button, 
 Then, it sets up the onCreateView() method which inflates the fragment_disease layout. It also sets up the onClickListeners for the camera and gallery buttons.
 The onRequestPermissionsResult() method is used to check if the user has granted permission to access the camera.
 The onActivityResult() method is used to get the result of the camera or gallery intent. It also calls the classifyImage() method which is used to classify the image.
+![demo_screenshot](https://user-images.githubusercontent.com/80407691/230297111-afee2f9f-a109-4432-832a-5f5425cbefdf.png)
+
+
 The classifyImage() method is used to classify the image. It creates an instance of the TestNew model and creates inputs for reference. It then runs model inference and gets the result. It also reads the labels from the test_label.txt file and sets the result text view.
 Finally, the getMax() method is used to get the index of the class with the biggest confidence.
 
-![alt text](demo_screenshot.jpg)
+
 
 
