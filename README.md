@@ -39,6 +39,6 @@ The onActivityResult() method is used to get the result of the camera or gallery
 The classifyImage() method is used to classify the image. It creates an instance of the TestNew model and creates inputs for reference. It then runs model inference and gets the result. It also reads the labels from the test_label.txt file and sets the result text view.
 Finally, the getMax() method is used to get the index of the class with the biggest confidence.
 
-![alt text](./demo_screenshot.jpg)
+![alt text](demo_screenshot.jpg)
 
 
